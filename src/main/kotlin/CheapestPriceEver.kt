@@ -1,0 +1,1 @@
+data class CheapestPriceEver(val price: String)

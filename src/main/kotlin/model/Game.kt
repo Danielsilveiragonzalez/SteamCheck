@@ -1,3 +1,5 @@
+package model
+
 class Game(
     val title: String,
     val cover_art: String,
@@ -6,7 +8,7 @@ class Game(
     var description: String = ""
 ) {
     override fun toString(): String {
-        return "Game: \n" +
+        return "model.Game: \n" +
                 " title= $title \n" +
                 " Cover_art= $cover_art \n" +
                 " lower_price= U$ $lower_price \n" +

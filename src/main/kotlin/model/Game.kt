@@ -8,7 +8,7 @@ class Game(
     var description: String = ""
 ) {
     override fun toString(): String {
-        return "model.Game: \n" +
+        return "Game: \n" +
                 " title= $title \n" +
                 " Cover_art= $cover_art \n" +
                 " lower_price= U$ $lower_price \n" +
